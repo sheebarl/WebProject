@@ -1,0 +1,191 @@
+.header{
+    background-color: bisque;
+    text-align: center;
+    padding:2px;
+    width:1000px;
+    margin-left: 450px;
+    margin-top:50px;
+
+}
+
+.Menu{
+    background-color: bisque;
+    text-align: center;
+    padding:10px;
+    width:500px;
+    height:400px;
+    margin-left: 650px;
+    margin-top:70px;
+    position: relative;
+    align-content: center;
+}
+
+.blank{
+    background-color: bisque;
+    padding:2px;
+    width:1000px;
+    height:70px;
+    margin-left: 450px;
+    margin-top:50px;
+
+
+}
+
+/*homepage*/
+
+.playerbtn{
+    height:50px;
+    width:450px;
+    margin-top: 30px;
+}
+
+.computerbtn{
+    height:50px;
+    width:450px;
+    margin-top: 50px;
+}
+
+/*playersdetails*/
+
+.heading1{
+    align-items: center;
+    float:left;
+   
+}
+
+.heading2{
+    float:left;
+    margin-top: 20px;
+}
+
+.player1{
+    height:50px;
+    width:450px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.player2{
+    height:50px;
+    width:450px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.start{
+    position: relative;
+    background-color: darkgoldenrod;
+    height:40px;
+    width:450px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left:20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*computerpage*/
+
+.player{
+    height:50px;
+    width:450px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.easybtn{
+    margin-top:50px;
+    height:50px;
+    width:100px;
+    margin-left:-70px;
+  
+}
+
+.difficultbtn{
+    height: 50px;
+    width:100px;
+    margin-top: 50px;
+    margin-right:20px;
+}
+
+/*playerboard*/
+.containerplayerboard
+{
+    position: relative;
+    align-items: center;   
+}
+
+.gameboard
+{
+    background-color: rgb(184, 216, 241);
+    margin-top: 50px;
+    height:1500px;
+    width:1150px;
+    position: relative;
+    margin-left: 50px;
+    align-items: center;
+    
+
+}
+
+.scoreboard{
+    background-color: rgb(53, 56, 58);
+    height: 1500px;
+    width:500px;
+    position: relative;
+    margin-top:-1520px;
+    margin-left: 1300px;
+    text-align: center;
+    align-items: center;
+}
+
+.history{
+    width:400px;
+    height:500px;
+    margin-top: 100px;
+}
+
+.resetbtn{
+
+    height:50px;
+    width:350px;
+    margin-top: 30px;
+}
+
+.exitbtn{
+
+    height:50px;
+    width:350px;
+    margin-top: 30px;
+
+}
+
+.imagesboard{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 30em;
+    margin-left: 100px;
+}
+
+.images{
+    
+    position: relative;
+    float:center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-color:#fff;
+    margin-right: 10px;
+}
+
+.images img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
